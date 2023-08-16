@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App; // 다른 파일에서 사용 가능하게 함
+export default App; // 다른 파일에서 사용 가능하게 함 

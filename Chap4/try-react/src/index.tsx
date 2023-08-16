@@ -32,3 +32,4 @@ root.render(
 // reportWebVitals는 웹 앱의 성능을 측정하고 분석하기 위해 사용됩니다. 
 // 이는 사용자의 경험을 향상시키기 위해 중요한 지표를 모니터링하는 데 도움이 됩니다.
 reportWebVitals();
+ 
