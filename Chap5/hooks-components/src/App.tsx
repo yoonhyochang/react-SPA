@@ -4,6 +4,7 @@ import "./App.css";
 import Greeting from "./GreetingFunctional";
 import ListCreator, { ListItem } from "./ListCreator";
 
+// 리듀서 함수 정의
 const reducer = (state: any, action: any) => {
   console.log("enteredNameReducer");
   switch (action.type) {
@@ -19,16 +20,20 @@ const reducer = (state: any, action: any) => {
   }
 };
 
+
+// 초기 상태 정의
 const initialState = {
   enteredName: "",
   message: "",
 };
 
 function App() {
+    // useReducer를 사용하여 상태 관리
   const [{ message, enteredName }, dispatch] = useReducer(
     reducer,
     initialState
   );
+  // 카운터 관련 상태 정의
   const [startCount, setStartCount] = useState(0);
   const [count, setCount] = useState(0);
   const setCountCallback = useCallback(() => {
@@ -36,6 +41,7 @@ function App() {
       count + 1 > startCount ? count + 1 : Number(count + 1) + startCount;
     setCount(inc);
   }, [count, startCount]);
+   // 목록 아이템 상태 정의
   const [listItems, setListItems] = useState<Array<ListItem>>();
 
   useEffect(() => {
@@ -55,6 +61,7 @@ function App() {
   };
 
   console.log("App.tsx render");
+    // UI 렌더링
   return (
     <div className="App">
       <header className="App-header">
