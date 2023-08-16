@@ -9,12 +9,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Switch>
+          { /* "/" 경로에서 Home 컴포넌트 표시 */ }
           <Route exact={true} path="/" component={Home}></Route>
-          <Route path="/another" component={AnotherScreen}></Route>
+          { /* "/another" 경로에서 AnotherScreen 컴포넌트 표시 */ }
+          <Route path="/another" component={AnotherScreen}></Route> 
         </Switch>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App; // 다른 파일에서 사용 가능하게 함
