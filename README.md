@@ -13,3 +13,5 @@
  **테스트실행** npm run test
 
 **리덕스 설치** npm i redux react-redux @types/redux @types/react-redux
+
+**리엑트 라우터 돔dom용 버전** npm i react-router-dom@5.3.0 @type/react-router-dom
