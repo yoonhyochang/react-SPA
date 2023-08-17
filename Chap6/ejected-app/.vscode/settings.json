@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 0,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "window.zoomLevel": 0, // VS Code 창의 확대/축소 수준 설정 (0은 기본 수준)
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 코드 포맷터로 Prettier를 지정
+  "editor.formatOnSave": true // 파일 저장 시 자동으로 코드 형식을 지정
 }
