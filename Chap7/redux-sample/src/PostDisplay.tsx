@@ -12,11 +12,14 @@ const PostDisplay = React.memo(() => {
       <React.Fragment>
         <div>
           <label>title:</label>
-          &nbsp;{post.title} // 포스트 제목
+          {/* // 포스트 제목 */}
+          &nbsp;{post.title} 
+         
         </div>
         <div>
           <label>body:</label>
-          &nbsp;{post.body} // 포스트 본문
+          {/* // 포스트 본문 */}
+          &nbsp;{post.body} 
         </div>
       </React.Fragment>
     );
