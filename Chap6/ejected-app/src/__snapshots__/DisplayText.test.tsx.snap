@@ -1,5 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+// 이 스냅샷은 "Test DisplayText matches snapshot" 테스트의 일부입니다.
+// 스냅샷 테스트는 컴포넌트의 렌더링 출력을 스냅샷으로 저장하고, 이후의 테스트 실행에서 
+// 렌더링 출력과 저장된 스냅샷을 비교합니다. 만약 변경이 있다면, 테스트는 실패합니다.
+// 이 스냅샷은 빈 입력 필드와 "Show Message" 버튼을 포함한 간단한 양식을 나타냅니다.
+
 exports[`Test DisplayText matches snapshot 1`] = `
 <body>
   <div>
