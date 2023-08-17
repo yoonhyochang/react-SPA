@@ -11,3 +11,5 @@
 **Create React App에서 내장된 설정을 프로젝트로 추출** npm run start 
 
  **테스트실행** npm run test
+
+**리덕스 설치** npm i redux react-redux @types/redux @types/react-redux
